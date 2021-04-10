@@ -29,7 +29,6 @@ class PrototypesController < ApplicationController
 
   def edit
     @prototype = Prototype.find(params[:id]) 
-    @prototype = Prototype.create
   end
 
   def update
